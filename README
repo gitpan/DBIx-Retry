@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution DBIx-Retry,
-version 0.003:
+version 0.004:
 
   DBIx::Connector with the ability to retry the run method for a specified amount of time.
 

@@ -49,7 +49,7 @@ DBIx::Retry - DBIx::Connector with the ability to retry the run method for a spe
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -70,11 +70,13 @@ DBIx::Retry is extended from DBIx::Connector. It adds the ability to keep retryi
 
 =head1 ATTRIBUTES
 
-=head2 retry_time 
-	Amount of seconds to retry re-connecting to database, should the database become unavailable. 
+=head2 retry_time
 
-=head2 verbose 
-	Enable verbose output.
+  Amount of seconds to retry re-connecting to database, should the database become unavailable. 
+
+=head2 verbose
+
+  Enable verbose output.
 
 =head1 METHODS
 

@@ -26,9 +26,10 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "DBIx::Connector" => 0,
     "Moo" => 0,
-    "Try::Tiny" => 0
+    "Try::Tiny" => 0,
+    "parent" => 0
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/*.t"
   }
